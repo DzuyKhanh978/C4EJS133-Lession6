@@ -1,0 +1,174 @@
+html,body {
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-container {
+    background-color: #F6F6F6;
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.sigin-option p:first-child {
+    font-size: 64px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.signin-icon {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+}
+
+.sigin-option p:last-child {
+    display: flex;
+    justify-content: center;
+}
+
+.signin-input {
+    width: 80%;
+}
+
+.signin-input input {
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+    height: 30px;
+    border: 0;
+    border-top: 2px solid #0AFF3199;
+    background-color: #EBEBEB;
+    text-indent: 10px;
+}
+
+.signin-checkpassword {
+    background-color: #EBEBEB;
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+
+.signin-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signin-footer input {
+    background-color:#0AFF3199;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin: 20px;
+    padding: 0;
+}
+
+.signin-footer p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.right-container {
+    background-color: #0AFF3199;
+    width: 40%;
+    height: 80%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
+    margin: auto;
+}
+
+.content .title {
+    font-size: 64px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.content p {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text-shop {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0px;
+    color: #49FF50;
+    display: none;
+}
+
+
+@media screen and (max-width: 700px) {
+    .right-container {
+        display: none;
+    }
+
+    .text-shop {
+        display: block;
+        font-size: 20px;
+    }
+
+    .sigin-option p:first-child {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .signin-icon {
+        font-size: 20px;
+    }
+
+    .sigin-option p:last-child {
+        font-size: 12px;
+    }
+
+    .signin-checkpassword {
+        height: 20px;
+        width: 150px;
+    
+    }
+
+    .signin-checkpassword lable {
+        font-size: 15px;
+    }
+
+}

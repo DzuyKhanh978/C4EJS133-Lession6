@@ -1,0 +1,169 @@
+html,body {
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.left-container {
+    background-color: #0AFF3199;
+    height: 90%;
+    width: 40%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
+    margin: auto;
+}
+
+.content p:first-child {
+    font-size: 64px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+.content p:last-child {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.right-container {
+    background-color: #F6F6F6;
+    height: 90%;
+    width: 40%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sigup-option p:first-child {
+    font-size: 64px;
+    font-weight: bold;
+    margin: 15px;
+    margin-bottom: 0;
+}
+
+.signup-icon {
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+.sigup-option p:last-child {
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.right-container form {
+    width: 80%;
+}
+
+.signup-input {
+    width: 100%;
+}
+
+.signup-input input {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    height: 30px;
+    border: 0;
+    border-top: 2px solid #0AFF3199;
+    background-color: #EBEBEB;
+    text-indent: 13px;
+}
+
+.signup-input select {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    height: 30px;
+    border: 0;
+    border-top: 2px solid #0AFF3199;
+    background-color: #EBEBEB;
+    text-indent: 10px;
+}
+
+
+.right-container-footer a {
+    margin: 10px;
+    background-color:#49FF50;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.telandsendcode {
+    position: relative;
+}
+
+.sendcode {
+    background-color:#0AFF3199;
+    color: white;
+    position: absolute;
+    padding: 5px;
+    margin: 0;
+    right: 0;
+    bottom: 1px;
+    padding-right: 10px;
+}
+
+.responsive {
+    color: #49FF50;
+    font-weight: bold;
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .left-container {
+        display: none;
+    }
+    .responsive {
+        display: block;
+    }
+
+    .sigup-option p:first-child {
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    .signup-icon {
+        font-size: 2vw;
+    }
+}
+
+
+
+
+
